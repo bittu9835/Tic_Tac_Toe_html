@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 50px auto;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #ddd;
+    background-color: #eee;
+    margin: 0 auto;
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+}
+
+.message {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#reset-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ddd;
+    cursor: pointer;
+    margin-top: 20px;
+}
